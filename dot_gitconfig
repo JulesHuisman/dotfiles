@@ -1,0 +1,19 @@
+[user]
+	name = JulesHuisman
+	email = jules.huisman@quantile.nl
+    signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCyWbck/ee32BMh1duhAnnxevU7awfy4uf8hgv0ZhPLDCaLs3d8PZoJ8BGLT44K19lq56cqe45L2xIh71LoaN56Whgvw0DPx1DHMAZSVK0Dbf4TGRv0FqVWmC/4RzsTs7I4wsqTuG47zOiBI9pEowGpXpka6T+roz+0UySSN1ymchO33qrCfDwNyCJ5FVfRXtHBHXHzZqysGtytl7ZI94IPKtDt8/guxPu2HUb4KrhniyrbhuofkahARigDd5IoLV7wxWs76iT9ylgJHtVy74NwC86gEjsI3ofXAGm65QEq7N6Y54SQwUg98njwy3vLBStVfe2OAUC4xkBNwCLR1WXBoPeULk9NaRDA1qU27l6nLT0HyjY/2UmaEHjHrLsOt4zlKiq6dXqwpqp4ytObCUC8M75KlvrfHOznhqTLKOhNnVVrHlFPe7/ZZnLdzzOQ+oXLRaijpe/0fjuBPTP1ousw3bG8dzztJ2E0r3TPbgNWLz7w5IgEyfqz0ZYkcMG+ax0=
+[push]
+	autoSetupRemote = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = master
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+[commit]
+    gpgsign = true

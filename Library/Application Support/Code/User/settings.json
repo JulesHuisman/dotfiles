@@ -1,0 +1,81 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "git.ignoreMissingGitWarning": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "breadcrumbs.enabled": false,
+  "editor.autoClosingQuotes": "never",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Mono Regular', Menlo, Monaco, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "task.problemMatchers.neverPrompt": {
+    "shell": true
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "jupyter.askForKernelRestart": false,
+  "editor.bracketPairColorization.enabled": false,
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "settingsSync.ignoredExtensions": ["innoverio.vscode-dbt-power-user"],
+  "notebook.output.textLineLimit": 50,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never",
+      "source.organizeImports.ruff": "explicit",
+      "source.fixAll.ruff": "explicit"
+    }
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.stickyScroll.enabled": true,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "git.ignoreRebaseWarning": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true,
+    "jsonc": false,
+    "python": false
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.layoutControl.enabled": false,
+  "notebook.output.wordWrap": true,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "window.commandCenter": false,
+  "python.analysis.autoFormatStrings": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "git.replaceTagsWhenPull": true,
+  "window.zoomLevel": 1.1,
+  "svelte.enable-ts-plugin": true,
+  "scm.workingSets.enabled": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.accessibilitySupport": "off",
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.13",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.chat.copilotMemory.enabled": true,
+  "chat.viewSessions.orientation": "stacked",
+  "chat.agentsControl.enabled": "badge",
+  "python.analysis.typeCheckingMode": "off"
+}
