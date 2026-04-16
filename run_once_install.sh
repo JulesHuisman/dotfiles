@@ -56,4 +56,7 @@ if command -v code &>/dev/null; then
   done
 fi
 
+# Install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 echo "Setup complete."
