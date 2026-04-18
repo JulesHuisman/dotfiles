@@ -15,6 +15,7 @@ prompt pure
 # Add the pipx location to the path
 export PATH="$PATH:/Users/jules/.local/bin"
 export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
+export PATH="/Applications/kitty.app/Contents/MacOS:$PATH"
 
 # Create an alias for the correct python version
 alias python3=python3.13
