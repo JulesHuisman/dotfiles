@@ -10,6 +10,7 @@ brew "tree"
 brew "watch"
 brew "wget"
 brew "trash"
+brew "powerlevel10k"
 
 # Languages & runtimes
 brew "node"
